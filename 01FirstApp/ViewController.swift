@@ -46,7 +46,7 @@ class ViewController: UIViewController {
     @IBAction func onBtn1Click(_ sender: UIButton) {
         // 로그 남기는 법
         print("btn1 클릭됨")
-        print("test")
+        print("test33")
         labelTitle.text = "btn1 클릭됨"
         imageView.image = UIImage(named: "image1.png")
     }
