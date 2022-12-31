@@ -19,6 +19,10 @@
 		C63CC62F29601F06007A8000 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CC62D29601F06007A8000 /* image2.png */; };
 		C63CC63029601F06007A8000 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CC62E29601F06007A8000 /* image1.png */; };
 		C63CC632296022ED007A8000 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CC631296022ED007A8000 /* SecondViewController.swift */; };
+		C64A29322960582E00B04AF5 /* StructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64A29312960582E00B04AF5 /* StructViewController.swift */; };
+		C64A29342960605200B04AF5 /* StructSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64A29332960605200B04AF5 /* StructSecondViewController.swift */; };
+		C64A29362960607A00B04AF5 /* StructThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64A29352960607A00B04AF5 /* StructThirdViewController.swift */; };
+		C64A293829606F3100B04AF5 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64A293729606F3100B04AF5 /* PopUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		C63CC62D29601F06007A8000 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
 		C63CC62E29601F06007A8000 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
 		C63CC631296022ED007A8000 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C64A29312960582E00B04AF5 /* StructViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructViewController.swift; sourceTree = "<group>"; };
+		C64A29332960605200B04AF5 /* StructSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructSecondViewController.swift; sourceTree = "<group>"; };
+		C64A29352960607A00B04AF5 /* StructThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructThirdViewController.swift; sourceTree = "<group>"; };
+		C64A293729606F3100B04AF5 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,7 @@
 		C63CC5F129600650007A8000 = {
 			isa = PBXGroup;
 			children = (
+				C64A293729606F3100B04AF5 /* PopUpViewController.swift */,
 				C63CC5FC29600650007A8000 /* 01FirstApp */,
 				C63CC61329600653007A8000 /* 01FirstAppTests */,
 				C63CC61D29600653007A8000 /* 01FirstAppUITests */,
@@ -110,8 +119,11 @@
 				C63CC5FD29600650007A8000 /* AppDelegate.swift */,
 				C63CC5FF29600650007A8000 /* SceneDelegate.swift */,
 				C63CC60129600650007A8000 /* ViewController.swift */,
-				C63CC60329600650007A8000 /* Main.storyboard */,
 				C63CC631296022ED007A8000 /* SecondViewController.swift */,
+				C64A29312960582E00B04AF5 /* StructViewController.swift */,
+				C64A29332960605200B04AF5 /* StructSecondViewController.swift */,
+				C64A29352960607A00B04AF5 /* StructThirdViewController.swift */,
+				C63CC60329600650007A8000 /* Main.storyboard */,
 				C63CC60629600652007A8000 /* Assets.xcassets */,
 				C63CC60829600652007A8000 /* LaunchScreen.storyboard */,
 				C63CC60B29600652007A8000 /* Info.plist */,
@@ -271,8 +283,12 @@
 			files = (
 				C63CC632296022ED007A8000 /* SecondViewController.swift in Sources */,
 				C63CC60229600650007A8000 /* ViewController.swift in Sources */,
+				C64A29362960607A00B04AF5 /* StructThirdViewController.swift in Sources */,
 				C63CC5FE29600650007A8000 /* AppDelegate.swift in Sources */,
+				C64A29322960582E00B04AF5 /* StructViewController.swift in Sources */,
+				C64A29342960605200B04AF5 /* StructSecondViewController.swift in Sources */,
 				C63CC60029600650007A8000 /* SceneDelegate.swift in Sources */,
+				C64A293829606F3100B04AF5 /* PopUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
