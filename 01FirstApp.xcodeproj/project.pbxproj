@@ -23,6 +23,10 @@
 		C64A29342960605200B04AF5 /* StructSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64A29332960605200B04AF5 /* StructSecondViewController.swift */; };
 		C64A29362960607A00B04AF5 /* StructThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64A29352960607A00B04AF5 /* StructThirdViewController.swift */; };
 		C64A293829606F3100B04AF5 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64A293729606F3100B04AF5 /* PopUpViewController.swift */; };
+		C66649F5296106A300B99763 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66649F4296106A300B99763 /* MainViewController.swift */; };
+		C66649F729610CCF00B99763 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66649F629610CCF00B99763 /* LoginViewController.swift */; };
+		C66649F929610CED00B99763 /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66649F829610CED00B99763 /* JoinViewController.swift */; };
+		C66649FB29610CFF00B99763 /* AgreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66649FA29610CFF00B99763 /* AgreeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,10 @@
 		C64A29332960605200B04AF5 /* StructSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructSecondViewController.swift; sourceTree = "<group>"; };
 		C64A29352960607A00B04AF5 /* StructThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructThirdViewController.swift; sourceTree = "<group>"; };
 		C64A293729606F3100B04AF5 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		C66649F4296106A300B99763 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C66649F629610CCF00B99763 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C66649F829610CED00B99763 /* JoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
+		C66649FA29610CFF00B99763 /* AgreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +132,10 @@
 				C64A29332960605200B04AF5 /* StructSecondViewController.swift */,
 				C64A29352960607A00B04AF5 /* StructThirdViewController.swift */,
 				C63CC60329600650007A8000 /* Main.storyboard */,
+				C66649F829610CED00B99763 /* JoinViewController.swift */,
+				C66649FA29610CFF00B99763 /* AgreeViewController.swift */,
+				C66649F629610CCF00B99763 /* LoginViewController.swift */,
+				C66649F4296106A300B99763 /* MainViewController.swift */,
 				C63CC60629600652007A8000 /* Assets.xcassets */,
 				C63CC60829600652007A8000 /* LaunchScreen.storyboard */,
 				C63CC60B29600652007A8000 /* Info.plist */,
@@ -283,12 +295,16 @@
 			files = (
 				C63CC632296022ED007A8000 /* SecondViewController.swift in Sources */,
 				C63CC60229600650007A8000 /* ViewController.swift in Sources */,
+				C66649F929610CED00B99763 /* JoinViewController.swift in Sources */,
 				C64A29362960607A00B04AF5 /* StructThirdViewController.swift in Sources */,
 				C63CC5FE29600650007A8000 /* AppDelegate.swift in Sources */,
 				C64A29322960582E00B04AF5 /* StructViewController.swift in Sources */,
 				C64A29342960605200B04AF5 /* StructSecondViewController.swift in Sources */,
+				C66649F5296106A300B99763 /* MainViewController.swift in Sources */,
 				C63CC60029600650007A8000 /* SceneDelegate.swift in Sources */,
+				C66649F729610CCF00B99763 /* LoginViewController.swift in Sources */,
 				C64A293829606F3100B04AF5 /* PopUpViewController.swift in Sources */,
+				C66649FB29610CFF00B99763 /* AgreeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
