@@ -22,6 +22,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var globalData: String = ""
     var mainVC: StructViewController? = nil
     
+    // Tabbar 전역변수
+    var fourthVC : TabbarFourthViewController? = nil
+    var myTabBar : MyTabBarController? = nil
+    
     // 로그인 정보
     var isLogin: Bool = false
     var isAgree: Bool = false

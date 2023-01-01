@@ -27,6 +27,9 @@
 		C66649F729610CCF00B99763 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66649F629610CCF00B99763 /* LoginViewController.swift */; };
 		C66649F929610CED00B99763 /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66649F829610CED00B99763 /* JoinViewController.swift */; };
 		C66649FB29610CFF00B99763 /* AgreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66649FA29610CFF00B99763 /* AgreeViewController.swift */; };
+		C6664A3E29611F3A00B99763 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6664A3D29611F3A00B99763 /* TabbarViewController.swift */; };
+		C6664A402961276800B99763 /* TabbarFourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6664A3F2961276800B99763 /* TabbarFourthViewController.swift */; };
+		C6664A422961288C00B99763 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6664A412961288C00B99763 /* MyTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +74,9 @@
 		C66649F629610CCF00B99763 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C66649F829610CED00B99763 /* JoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
 		C66649FA29610CFF00B99763 /* AgreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreeViewController.swift; sourceTree = "<group>"; };
+		C6664A3D29611F3A00B99763 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		C6664A3F2961276800B99763 /* TabbarFourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarFourthViewController.swift; sourceTree = "<group>"; };
+		C6664A412961288C00B99763 /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,20 +128,13 @@
 		C63CC5FC29600650007A8000 /* 01FirstApp */ = {
 			isa = PBXGroup;
 			children = (
-				C63CC62E29601F06007A8000 /* image1.png */,
-				C63CC62D29601F06007A8000 /* image2.png */,
 				C63CC5FD29600650007A8000 /* AppDelegate.swift */,
 				C63CC5FF29600650007A8000 /* SceneDelegate.swift */,
-				C63CC60129600650007A8000 /* ViewController.swift */,
-				C63CC631296022ED007A8000 /* SecondViewController.swift */,
-				C64A29312960582E00B04AF5 /* StructViewController.swift */,
-				C64A29332960605200B04AF5 /* StructSecondViewController.swift */,
-				C64A29352960607A00B04AF5 /* StructThirdViewController.swift */,
+				C6664A3B29611E1600B99763 /* uicontroll */,
+				C6664A3929611D9B00B99763 /* struct */,
+				C6664A3A29611DD700B99763 /* login */,
+				C6664A3C29611E5700B99763 /* tabbar */,
 				C63CC60329600650007A8000 /* Main.storyboard */,
-				C66649F829610CED00B99763 /* JoinViewController.swift */,
-				C66649FA29610CFF00B99763 /* AgreeViewController.swift */,
-				C66649F629610CCF00B99763 /* LoginViewController.swift */,
-				C66649F4296106A300B99763 /* MainViewController.swift */,
 				C63CC60629600652007A8000 /* Assets.xcassets */,
 				C63CC60829600652007A8000 /* LaunchScreen.storyboard */,
 				C63CC60B29600652007A8000 /* Info.plist */,
@@ -158,6 +157,48 @@
 				C63CC62029600653007A8000 /* _1FirstAppUITestsLaunchTests.swift */,
 			);
 			path = 01FirstAppUITests;
+			sourceTree = "<group>";
+		};
+		C6664A3929611D9B00B99763 /* struct */ = {
+			isa = PBXGroup;
+			children = (
+				C64A29312960582E00B04AF5 /* StructViewController.swift */,
+				C64A29332960605200B04AF5 /* StructSecondViewController.swift */,
+				C64A29352960607A00B04AF5 /* StructThirdViewController.swift */,
+			);
+			path = struct;
+			sourceTree = "<group>";
+		};
+		C6664A3A29611DD700B99763 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				C66649F4296106A300B99763 /* MainViewController.swift */,
+				C66649F629610CCF00B99763 /* LoginViewController.swift */,
+				C66649F829610CED00B99763 /* JoinViewController.swift */,
+				C66649FA29610CFF00B99763 /* AgreeViewController.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		C6664A3B29611E1600B99763 /* uicontroll */ = {
+			isa = PBXGroup;
+			children = (
+				C63CC60129600650007A8000 /* ViewController.swift */,
+				C63CC631296022ED007A8000 /* SecondViewController.swift */,
+				C63CC62E29601F06007A8000 /* image1.png */,
+				C63CC62D29601F06007A8000 /* image2.png */,
+			);
+			path = uicontroll;
+			sourceTree = "<group>";
+		};
+		C6664A3C29611E5700B99763 /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				C6664A3D29611F3A00B99763 /* TabbarViewController.swift */,
+				C6664A3F2961276800B99763 /* TabbarFourthViewController.swift */,
+				C6664A412961288C00B99763 /* MyTabBarController.swift */,
+			);
+			path = tabbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,15 +337,18 @@
 				C63CC632296022ED007A8000 /* SecondViewController.swift in Sources */,
 				C63CC60229600650007A8000 /* ViewController.swift in Sources */,
 				C66649F929610CED00B99763 /* JoinViewController.swift in Sources */,
+				C6664A3E29611F3A00B99763 /* TabbarViewController.swift in Sources */,
 				C64A29362960607A00B04AF5 /* StructThirdViewController.swift in Sources */,
 				C63CC5FE29600650007A8000 /* AppDelegate.swift in Sources */,
 				C64A29322960582E00B04AF5 /* StructViewController.swift in Sources */,
 				C64A29342960605200B04AF5 /* StructSecondViewController.swift in Sources */,
+				C6664A402961276800B99763 /* TabbarFourthViewController.swift in Sources */,
 				C66649F5296106A300B99763 /* MainViewController.swift in Sources */,
 				C63CC60029600650007A8000 /* SceneDelegate.swift in Sources */,
 				C66649F729610CCF00B99763 /* LoginViewController.swift in Sources */,
 				C64A293829606F3100B04AF5 /* PopUpViewController.swift in Sources */,
 				C66649FB29610CFF00B99763 /* AgreeViewController.swift in Sources */,
+				C6664A422961288C00B99763 /* MyTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
