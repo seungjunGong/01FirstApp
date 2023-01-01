@@ -134,6 +134,7 @@
 				C6664A3929611D9B00B99763 /* struct */,
 				C6664A3A29611DD700B99763 /* login */,
 				C6664A3C29611E5700B99763 /* tabbar */,
+				C6664A43296140B700B99763 /* autoLayout */,
 				C63CC60329600650007A8000 /* Main.storyboard */,
 				C63CC60629600652007A8000 /* Assets.xcassets */,
 				C63CC60829600652007A8000 /* LaunchScreen.storyboard */,
@@ -199,6 +200,13 @@
 				C6664A412961288C00B99763 /* MyTabBarController.swift */,
 			);
 			path = tabbar;
+			sourceTree = "<group>";
+		};
+		C6664A43296140B700B99763 /* autoLayout */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = autoLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
