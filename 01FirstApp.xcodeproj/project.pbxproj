@@ -32,6 +32,8 @@
 		C6664A422961288C00B99763 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6664A412961288C00B99763 /* MyTabBarController.swift */; };
 		C6664A462961635B00B99763 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6664A452961635B00B99763 /* MyTableViewCell.swift */; };
 		C6664A48296163DF00B99763 /* TableListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6664A47296163DF00B99763 /* TableListViewController.swift */; };
+		C6664A4B2961751000B99763 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6664A4A2961751000B99763 /* CollectionViewController.swift */; };
+		C6664A4D2961770E00B99763 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6664A4C2961770E00B99763 /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,8 @@
 		C6664A412961288C00B99763 /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
 		C6664A452961635B00B99763 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		C6664A47296163DF00B99763 /* TableListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableListViewController.swift; sourceTree = "<group>"; };
+		C6664A4A2961751000B99763 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		C6664A4C2961770E00B99763 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,7 @@
 				C6664A3C29611E5700B99763 /* tabbar */,
 				C6664A43296140B700B99763 /* autoLayout */,
 				C6664A4429615E5500B99763 /* tableListView */,
+				C6664A492961749000B99763 /* collectionView */,
 				C63CC60329600650007A8000 /* Main.storyboard */,
 				C63CC60629600652007A8000 /* Assets.xcassets */,
 				C63CC60829600652007A8000 /* LaunchScreen.storyboard */,
@@ -221,6 +226,15 @@
 				C6664A452961635B00B99763 /* MyTableViewCell.swift */,
 			);
 			path = tableListView;
+			sourceTree = "<group>";
+		};
+		C6664A492961749000B99763 /* collectionView */ = {
+			isa = PBXGroup;
+			children = (
+				C6664A4A2961751000B99763 /* CollectionViewController.swift */,
+				C6664A4C2961770E00B99763 /* MyCollectionViewCell.swift */,
+			);
+			path = collectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,6 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6664A4B2961751000B99763 /* CollectionViewController.swift in Sources */,
 				C63CC632296022ED007A8000 /* SecondViewController.swift in Sources */,
 				C63CC60229600650007A8000 /* ViewController.swift in Sources */,
 				C6664A48296163DF00B99763 /* TableListViewController.swift in Sources */,
@@ -370,6 +385,7 @@
 				C66649F5296106A300B99763 /* MainViewController.swift in Sources */,
 				C63CC60029600650007A8000 /* SceneDelegate.swift in Sources */,
 				C66649F729610CCF00B99763 /* LoginViewController.swift in Sources */,
+				C6664A4D2961770E00B99763 /* MyCollectionViewCell.swift in Sources */,
 				C64A293829606F3100B04AF5 /* PopUpViewController.swift in Sources */,
 				C66649FB29610CFF00B99763 /* AgreeViewController.swift in Sources */,
 				C6664A422961288C00B99763 /* MyTabBarController.swift in Sources */,

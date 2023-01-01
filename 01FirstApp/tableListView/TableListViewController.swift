@@ -16,7 +16,7 @@ class TableListViewController: UIViewController, UITableViewDelegate, UITableVie
     ]
     let arts:[String] = [
         "빨간맛, 파워업", "놀토, 사계", "좋은날, 스물셋", "효리네민박, 바람이불면",
-        "건축한개론, FaceOfLove"
+        "건축학개론, FaceOfLove"
     ]
     let images:[String] = [
         "image3.png", "image4.png", "image5.png", "image6.png", "image7.png"
