@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="71n-e5-rpr">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gPA-MY-N7K">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -1158,7 +1158,55 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3YZ-aJ-U0z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1518.3206106870227" y="1711.9718309859156"/>
+            <point key="canvasLocation" x="1320" y="1725"/>
+        </scene>
+        <!--Alamofire View Controller-->
+        <scene sceneID="kHO-Bm-SgV">
+            <objects>
+                <viewController id="gPA-MY-N7K" customClass="AlamofireViewController" customModule="_1FirstApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ma1-bu-qt3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sX5-s3-yN5">
+                                <rect key="frame" x="10" y="104" width="373" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="XT3-FC-2a4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="HTTP 서버에 요청하기"/>
+                                <connections>
+                                    <action selector="onBtnRequest:" destination="gPA-MY-N7K" eventType="touchUpInside" id="7jH-Vo-OIS"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="서버통신결과" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="O5U-YE-hDZ">
+                                <rect key="frame" x="10" y="179" width="373" height="489"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hAY-XZ-q9n"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sX5-s3-yN5" firstAttribute="leading" secondItem="hAY-XZ-q9n" secondAttribute="leading" constant="10" id="8Z4-eO-UwB"/>
+                            <constraint firstItem="O5U-YE-hDZ" firstAttribute="leading" secondItem="hAY-XZ-q9n" secondAttribute="leading" constant="10" id="EKr-83-qTW"/>
+                            <constraint firstItem="hAY-XZ-q9n" firstAttribute="trailing" secondItem="O5U-YE-hDZ" secondAttribute="trailing" constant="10" id="IuG-Gm-FtE"/>
+                            <constraint firstItem="sX5-s3-yN5" firstAttribute="top" secondItem="hAY-XZ-q9n" secondAttribute="top" constant="45" id="JjZ-2V-9SL"/>
+                            <constraint firstItem="hAY-XZ-q9n" firstAttribute="bottom" secondItem="O5U-YE-hDZ" secondAttribute="bottom" constant="150" id="dwu-cE-WiN"/>
+                            <constraint firstItem="hAY-XZ-q9n" firstAttribute="trailing" secondItem="sX5-s3-yN5" secondAttribute="trailing" constant="10" id="hOj-aa-PyT"/>
+                            <constraint firstItem="O5U-YE-hDZ" firstAttribute="top" secondItem="sX5-s3-yN5" secondAttribute="bottom" constant="30" id="y2w-ZN-BW7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="O5U-YE-hDZ" id="niV-Te-vGa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iPg-ra-9WJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2806.8702290076335" y="1724.6478873239437"/>
         </scene>
     </scenes>
     <resources>
